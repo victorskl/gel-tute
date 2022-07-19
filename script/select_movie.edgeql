@@ -1,0 +1,4 @@
+select Movie {
+    title,
+    year,
+};
