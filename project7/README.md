@@ -4,7 +4,7 @@ Linking Remote Instance
 
 Consider Gel (EdgeDB) is running in remote. 
 
-We shall [docker-gel](../docker-gel) compose stack to simulate this scenario.
+We will use the [docker-gel](../docker-gel) compose stack to simulate this scenario.
 
 See https://docs.geldata.com/reference/using/projects#using-projects-with-remote-instances
 
