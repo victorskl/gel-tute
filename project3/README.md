@@ -57,3 +57,7 @@ Applying m15urwxxqxjiikfhvuk2xyfyg6al25ttk6yl33pqtfr4s6lqqmzfjq (00002-m15urwx.e
 gel migration status
 Database is up to date. Last migration: m15urwxxqxjiikfhvuk2xyfyg6al25ttk6yl33pqtfr4s6lqqmzfjq.
 ```
+
+```shell
+gel instance destroy -I project3 --force
+```

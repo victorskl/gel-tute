@@ -55,3 +55,7 @@ gel ui
 ```
 
 ![gel_ui.png](gel_ui.png)
+
+```shell
+gel instance destroy -I project5 --force
+```

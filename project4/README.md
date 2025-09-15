@@ -201,3 +201,7 @@ project4:main> delete Person filter .id = <uuid>'4cf45ba0-91e9-11f0-a4e3-df065ac
 project4:main> delete Person filter .id = <uuid>'52fcdab8-91e9-11f0-a4e3-2305d7a88533';
 project4:main> \q
 ```
+
+```shell
+gel instance destroy -I project4 --force
+```

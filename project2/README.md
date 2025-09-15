@@ -91,3 +91,7 @@ gel list types
 ```shell
 gel ui
 ```
+
+```shell
+gel instance destroy -I project2 --force
+```
