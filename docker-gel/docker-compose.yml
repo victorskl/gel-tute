@@ -1,0 +1,15 @@
+services:
+
+  gel:
+    image: geldata/gel
+    container_name: gel
+    environment:
+#      GEL_SERVER_SECURITY: insecure_dev_mode
+      GEL_SERVER_TLS_CERT_MODE: generate_self_signed
+      GEL_SERVER_USER: gel
+      GEL_SERVER_PASSWORD: gel
+    volumes:
+#      - "./dbschema:/dbschema"
+      - "./data:/var/lib/gel/data"
+    ports:
+      - "5656:5656"

@@ -1,9 +1,7 @@
-# https://www.edgedb.com/docs/guides/quickstart
-
 module default {
   type Person {
     required property first_name -> str;
-    property last_name -> str;
+    required property last_name -> str;
 
     property full_name :=
       .first_name ++ ' ' ++ .last_name
@@ -17,4 +15,4 @@ module default {
     link director -> Person;
     multi link actors -> Person;
   }
-};
+}
